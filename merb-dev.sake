@@ -1,6 +1,6 @@
 desc "Copy the POST plugin into your LPS distribution"
 task "laszlo:plugins:post" do
-  sh "git clone git clone git@github.com:wycats/laszlo_post_api.git"
+  sh "git clone git@github.com:wycats/laszlo_post_api.git"
   sh "rm -rf laszlo_post_api/.git"
   sh "cp -r laszlo_post_api ."
 end
